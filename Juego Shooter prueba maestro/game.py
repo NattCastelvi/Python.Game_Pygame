@@ -133,9 +133,9 @@ def show_go_screen():
 
 
 meteor_images = []
-meteor_list = ["assets/meteorGrey_big1.png", "assets/meteorGrey_big2.png", "assets/meteorGrey_big3.png", "assets/meteorGrey_big4.png",
-				"assets/meteorGrey_med1.png", "assets/meteorGrey_med2.png", "assets/meteorGrey_small1.png", "assets/meteorGrey_small2.png",
-				"assets/meteorGrey_tiny1.png", "assets/meteorGrey_tiny2.png"]
+meteor_list = ["meteorGrey_big1.png", "meteorGrey_big2.png", "meteorGrey_big3.png", "meteorGrey_big4.png",
+				"meteorGrey_med1.png", "meteorGrey_med2.png", "meteorGrey_small1.png", "meteorGrey_small2.png",
+				"meteorGrey_tiny1.png", "meteorGrey_tiny2.png"]
 for img in meteor_list:
 	meteor_images.append(pygame.image.load(img).convert())
 
